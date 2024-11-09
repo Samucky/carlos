@@ -1,0 +1,53 @@
+/* Estilos generales */
+* {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto en blanco para contraste */
+}
+
+/* Estilo de la galería de imagen */
+.galeria img {
+    display: block;
+    margin: 20px auto;
+    max-width: 20%;
+    border: 2px solid #fff; /* Borde blanco */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Aseguramos que ambas tablas tengan el mismo ancho */
+table {
+    width: 80%; /* Ancho ajustado */
+    border-collapse: collapse;
+    margin: 20px auto; /* Centra la tabla */
+    background-color: #444; /* Fondo oscuro para la tabla */
+}
+
+/* Estilos para las celdas */
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #fff; /* Texto en blanco */
+}
+
+/* Estilos para el encabezado de la tabla */
+th {
+    background-color: #e0e0e0; /* Fondo gris claro */
+    font-weight: bold;
+    color: #333; /* Texto oscuro */
+}
+
+/* Estilo específico para las celdas de horario (fondo gris claro) */
+td[style*="background-color: lightgray;"] {
+    background-color: #e0e0e0 !important;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Texto oscuro */
+}
